@@ -25,6 +25,12 @@ buy-categories:
         price: 1
         image: "textures/blocks/dirt"
         image-type: 0
+      - menu-name: "Cobblestone"
+        id: 4
+        damage: 0
+        price: 50
+        image: "textures/blocks/cobblestone"
+        image-type: 0
   - name: "Food"
     image: "https://media.forgecdn.net/avatars/64/819/636156733139658109.png"
     image-type: 1
