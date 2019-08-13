@@ -55,11 +55,11 @@ buy-categories:
         price: 70
         image: "textures/blocks/glowstone"
         image-type: 0
-      - menu-name: "Sea Lantern"
+      - menu-name: "BookShelf"
         id: 169
         damage: 0
-        price: 209
-        image: "textures/blocks/bricks"
+        price: 175
+        image: "textures/blocks/bookshelf"
         image-type: 0
       - menu-name: "wood"
         id: 17
@@ -71,14 +71,26 @@ buy-categories:
         id: 42
         damage: 0
         price: 500
-        image: "textures/items/iron_ingot"
+        image: "textures/items/iron_block"
         image-type: 0
       - menu-name: "Gold Block"
         id: 41
         damage: 0
         price: 750
-        image: "textures
-        image-type:
+        image: "textures/blocks/gold_block"
+        image-type: 0
+      - menu-name: "Emerald Block"
+        id: 133
+        damage: 0
+        price: 1000
+        image: "textures/blocks/emerald_block"
+        image-type: 0
+      - menu-name: "Quartz Block"
+        id: 155
+        damage: 0
+        price: 70
+        image: "textures/blocks/quartz_block_side"
+        image-type: 0
   - name: "Food"
     image: "https://media.forgecdn.net/avatars/64/819/636156733139658109.png"
     image-type: 1
@@ -86,20 +98,32 @@ buy-categories:
       - menu-name: "Steak"
         id: 364
         damage: 0
-        price: 10
+        price: 30
         image: "textures/items/beef_cooked"
         image-type: 0
       - menu-name: "Cooked Chicken"
         id: 366
         damage: 0
-        price: 10
+        price: 25
         image: "textures/items/chicken_cooked"
+        image-type: 0
+      - menu-name: "Cooked Pork"
+        id: 320
+        damage: 0
+        price: 36
+        image: "textures/items/porkchop_cooked"
         image-type: 0
       - menu-name: "Bread"
         id: 297
         damage: 0
-        price: 5
+        price: 15
         image: "textures/items/bread"
+        image-type: 0
+      - menu-name: "Golden Apple"
+        id: 322
+        damage: 0
+        price: 300
+        image: "textures/items/apple_golden"
         image-type: 0
 sell-main-menu-title: "PiggyShop Sell UI"
 sell-category-menu-title: "{CATEGORY}"
