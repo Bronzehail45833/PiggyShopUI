@@ -133,32 +133,33 @@ buy-categories:
         id: 263
         damage: 0
         price: 120
-        image: "textures/items/beef_cooked"
+        image: "textures/items/coal"
         image-type: 0
-      - menu-name: "Cooked Chicken"
-        id: 366
+      - menu-name: "Diamond"
+        id: 264
         damage: 0
-        price: 25
-        image: "textures/items/chicken_cooked"
+        price: 152
+        image: "textures/items/diamond"
         image-type: 0
-      - menu-name: "Cooked Pork"
-        id: 320
+      - menu-name: "Iron"
+        id: 265
         damage: 0
-        price: 36
-        image: "textures/items/porkchop_cooked"
+        price: 50
+        image: "textures/items/iron_ingot"
         image-type: 0
-      - menu-name: "Bread"
-        id: 297
+      - menu-name: "Gold"
+        id: 266
         damage: 0
-        price: 15
-        image: "textures/items/bread"
+        price: 75
+        image: "textures/items/gold_ingot"
         image-type: 0
-      - menu-name: "Golden Apple"
-        id: 322
+      - menu-name: "Emerald"
+        id: 388
         damage: 0
-        price: 300
-        image: "textures/items/apple_golden"
+        price: 200
+        image: "textures/items/emerald"
         image-type: 0
+      
 sell-main-menu-title: "PiggyShop Sell UI"
 sell-category-menu-title: "{CATEGORY}"
 sell-item-menu-title: "Sell {ITEM}"
