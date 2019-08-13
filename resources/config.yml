@@ -125,7 +125,40 @@ buy-categories:
         price: 300
         image: "textures/items/apple_golden"
         image-type: 0
-  - name:
+  - name: "Ores"
+    image: "http://saltypixel.ga/textures/items/coal.png"
+    image-type: 1
+    items:
+      - menu-name: "Coal"
+        id: 263
+        damage: 0
+        price: 120
+        image: "textures/items/beef_cooked"
+        image-type: 0
+      - menu-name: "Cooked Chicken"
+        id: 366
+        damage: 0
+        price: 25
+        image: "textures/items/chicken_cooked"
+        image-type: 0
+      - menu-name: "Cooked Pork"
+        id: 320
+        damage: 0
+        price: 36
+        image: "textures/items/porkchop_cooked"
+        image-type: 0
+      - menu-name: "Bread"
+        id: 297
+        damage: 0
+        price: 15
+        image: "textures/items/bread"
+        image-type: 0
+      - menu-name: "Golden Apple"
+        id: 322
+        damage: 0
+        price: 300
+        image: "textures/items/apple_golden"
+        image-type: 0
 sell-main-menu-title: "PiggyShop Sell UI"
 sell-category-menu-title: "{CATEGORY}"
 sell-item-menu-title: "Sell {ITEM}"
