@@ -125,6 +125,7 @@ buy-categories:
         price: 300
         image: "textures/items/apple_golden"
         image-type: 0
+  - name:
 sell-main-menu-title: "PiggyShop Sell UI"
 sell-category-menu-title: "{CATEGORY}"
 sell-item-menu-title: "Sell {ITEM}"
