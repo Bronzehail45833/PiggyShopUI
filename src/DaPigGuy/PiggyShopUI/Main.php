@@ -33,7 +33,7 @@ class Main extends PluginBase
         $this->saveDefaultConfig();
         $this->loadCategories();
         $this->getServer()->getCommandMap()->register("piggyshopui", new BuyCommand("buy", $this));
-        $this->getServer()->getCommandMap()->register("piggyshopui", new SellCommand("sell", $this));
+        $this->getServer()->getCommandMap()->register("piggyshopui", new SellCommand("sellui", $this));
     }
 
     public function loadCategories()
