@@ -65,13 +65,13 @@ buy-categories:
         id: 17
         damage: 0
         price: 50
-        image: "textures/blocks/wood"
+        image: ""
         image-type: 0
       - menu-name: "Iron Block"
         id: 42
         damage: 0
         price: 500
-        image: "textures/items/iron_block"
+        image: ""
         image-type: 0
       - menu-name: "Gold Block"
         id: 41
@@ -191,10 +191,10 @@ buy-categories:
         id: 346
         damage: 0
         price: 15000
-        image: "https://lh3.googleusercontent.com/VAiw5YFbLYhlFA0KHcIde5_A40EaLN9K1uj7YHP31i8HKgwMFbJf_stzJYHCKZQuRCiEVb5Z8KJuiv6mcOIXQA"
+        image: ""
         image-type: 0
   - name: "Farming"
-    image: "http://saltypixel.ga/textures/items/coal.png"
+    image: "http://saltypixel.ga/textures/items/seeds"
     image-type: 1
     items:
       - menu-name: "Pumpkin"
@@ -227,6 +227,16 @@ buy-categories:
         price: 200
         image: "textures/items/carrot"
         image-type: 0
+  - name: "Spawners"
+    image: "textures/items/mob_spawner"
+    image-type: 1
+    items:
+      - menu-name: "Mob Spawner"
+      id: 52
+      damage: 0
+      price: 15000
+      image: "textures/blocks/mob_spawner"
+      image-type: 0
 sell-main-menu-title: "PiggyShop Sell UI"
 sell-category-menu-title: "{CATEGORY}"
 sell-item-menu-title: "Sell {ITEM}"
